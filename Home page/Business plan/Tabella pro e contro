@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Confronto Soluzioni</title>
+  <style>
+    /* Stili generali */
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f0f4f8;
+      color: #333;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #342583;
+      margin-bottom: 20px;
+    }
+
+    /* Tabella comparativa */
+    .comparison-table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: white;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .comparison-table th, .comparison-table td {
+      padding: 15px;
+      text-align: center;
+      border: 1px solid #e0e0e0;
+    }
+
+    .comparison-table th {
+      background-color: #342583;
+      color: white;
+      font-weight: bold;
+    }
+
+    .comparison-table td {
+      color: #555;
+    }
+
+    .comparison-table tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+
+    .comparison-table tr:hover {
+      background-color: #f1f1f1;
+    }
+
+    /* Icone */
+    .icon {
+      width: 20px;
+      height: 20px;
+      vertical-align: middle;
+      margin-right: 5px;
+    }
+
+    .icon-check {
+      fill: green;
+    }
+
+    .icon-cross {
+      fill: red;
+    }
+  </style>
+</head>
+<body>
+  <h2>Confronto tra StudySinc e Altre Soluzioni</h2>
+  <table class="comparison-table">
+    <thead>
+      <tr>
+        <th>Caratteristica</th>
+        <th>StudySinc</th>
+        <th>Quizlet</th>
+        <th>Anki</th>
+        <th>Kahoot!</th>
+        <th>JungleAI</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Integrazione con Materiali di Corso</td>
+        <td>✅</td>
+        <td>❌</td>
+        <td>❌</td>
+        <td>❌</td>
+        <td>❌</td>
+      </tr>
+      <tr>
+        <td>Generazione Automatica di Esami</td>
+        <td>✅</td>
+        <td>❌</td>
+        <td>❌</td>
+        <td>❌</td>
+        <td>✅</td>
+      </tr>
+      <tr>
+        <td>Tracciamento dei Progressi</td>
+        <td>✅</td>
+        <td>❌</td>
+        <td>✅</td>
+        <td>❌</td>
+        <td>❌</td>
+      </tr>
+      <tr>
+        <td>Personalizzazione Basata su AI</td>
+        <td>✅</td>
+        <td>❌</td>
+        <td>❌</td>
+        <td>❌</td>
+        <td>✅</td>
+      </tr>
+      <tr>
+        <td>Adatto all'Ambiente Universitario</td>
+        <td>✅</td>
+        <td>✅</td>
+        <td>✅</td>
+        <td>❌</td>
+        <td>❌</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
